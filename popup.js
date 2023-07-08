@@ -40,7 +40,7 @@ function trimTextForGPT(text) {
 }
 
 async function askGPT(question, context) {
-  const apiKey = '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'; // Replace with your GPT API key
+  const apiKey = 'OPEN_AI_KEY'; // Replace with your GPT API key
   const endpoint = 'https://api.openai.com/v1/completions';
 
   const body = {
